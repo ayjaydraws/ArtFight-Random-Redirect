@@ -1,4 +1,11 @@
 <script>
+  // Generate a random index between 0 and 44
+  let randomIndex = Math.floor(Math.random() * 45);
+
+  // Debug output: Print the random index to the console
+  console.log("Random Index: ", randomIndex);
+
+  // Use the random index to choose a link
   location.href = [
     "https://artfight.net/character/141974.amy",
     "https://artfight.net/character/144434.susi",
@@ -44,5 +51,5 @@
     "https://artfight.net/character/718053.pony-ocs",
     "https://artfight.net/character/367387.da-grillz",
     "https://artfight.net/character/412171.obligatory-design-me-a-character",
-  ][Math.floor(Math.random() * 45)];
+  ][randomIndex];
 </script>
