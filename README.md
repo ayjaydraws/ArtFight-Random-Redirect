@@ -1,0 +1,1 @@
+# ArtFight-Random-Redirect
