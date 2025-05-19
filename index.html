@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Redirecting...</title>
-    <script>
-      const links = [
-        "https://artfight.net/character/141974.amy",
-        "https://artfight.net/character/144434.susi",
-        "https://artfight.net/character/148103.tessa"
-      ];
-      window.location.href = links[Math.floor(Math.random() * links.length)];
-    </script>
-  </head>
-  <body>
-    Redirecting...
-  </body>
-</html>
+<script>
+  location.href = [
+    "https://artfight.net/character/141974.amy",
+    "https://artfight.net/character/144434.susi",
+    "https://artfight.net/character/148103.tessa"
+  ][Math.floor(Math.random() * 3)];
+</script>
